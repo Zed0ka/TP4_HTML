@@ -14,7 +14,7 @@
         <h1>
             Bienvenue sur le site qu'on m'a demandé de faire !
         </h1>
-        <nav>
+        <nav> <!--Blog et Gallerie ne renvoient pour l'instant à rien-->
             <a href="index.html">Accueil</a>
             <br>
             <a href="">Blog</a>
@@ -25,19 +25,19 @@
         </nav>
     </header>
 
-    <section> <!--Formulaire Contact-->
+    <div> <!--Formulaire Contact-->
         <form action="informations.php" method="post">
-            <fieldset>
+            <fieldset> <!-- email et name sont des mentions obligatoires -->
                 <legend>Informations Personnelles</legend>
-                <label for="name"><abbr title="obligatoire">*</abbr>Nom:</label>
+                <label for="name"><abbr>*</abbr>Nom:</label>
                 <input type="text" name="name" id="name" placeholder="Gérard Martin" minlength="2" maxlength="20" required>
                 
                 <br>
                 
-                <label for="email"><abbr title="obligatoire">*</abbr>Email:</label>
+                <label for="email"><abbr>*</abbr>Email:</label>
                 <input type="email" name="email" id="email" placeholder="nomprénom@FAI.com" required>
                 
-                <br>
+                <br> 
                 
                 <label for="commentaire">Commentaire</label> <br>
                 <textarea name="commentaire" id="commentaire" cols="70" rows="10" placeholder="Je m'inscris parce que..."></textarea>
@@ -54,14 +54,14 @@
 
             </fieldset>
         </form>
-    </section>
+    </div>
     
     <footer>
-        <ul>
-            <li> <a href=""></a> </li>
-            <li> <a href=""></a> </li>
-            <li> <a href=""></a> </li>
-            <li> <a href=""></a> </li>
+        <ul> <!-- Ces liens sont fonctionnels mais ne renvoient pas aux menus. En attente de les produire-->
+            <li> <a href="index.html">Menu 1</a></li>
+            <li> <a href="index.html">Menu 2</a></li>
+            <li> <a href="index.html">Menu 3</a></li>
+            <li> <a href="index.html">Menu 4</a></li>
         </ul>
     </footer>
 

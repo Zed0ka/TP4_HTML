@@ -1,0 +1,53 @@
+body {
+    background-image: radial-gradient(#ccdae0, #edf2f4);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #ef233c;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #2b2d42;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: dotted underline;
+}
+article {
+    border: solid 1px;
+    border-color: #2b2d42;
+    border-collapse: collapse;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    border: solid 2px;
+    border-color: #8d99ae;
+}
+
+footer {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none ;
+}
+
+a {
+    color: #d90429;
+}
+
+a :visited {
+    color: grey;
+}
+
+a:hover {
+    color : #2b2d42;
+}

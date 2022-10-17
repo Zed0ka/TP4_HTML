@@ -51,3 +51,7 @@ a :visited {
 a:hover {
     color : #2b2d42;
 }
+
+*{
+    color : red
+}
